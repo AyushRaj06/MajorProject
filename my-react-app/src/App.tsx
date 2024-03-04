@@ -6,16 +6,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <><div>
-      <h1>
-        Replit
-      </h1>
-    </div><BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/coding" element={<CodingPage />} />
           <Route path="/" element={<Landing />} />
         </Routes>
-      </BrowserRouter></>
+      </BrowserRouter>
   );
 }
 
