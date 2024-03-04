@@ -7,6 +7,7 @@ import styled from '@emotion/styled';
 import { Output } from './Output';
 import { TerminalComponent as Terminal } from './Terminal';
 import axios from 'axios';
+import React from 'react';
 
 function useSocket(replId: string) {
     const [socket, setSocket] = useState<Socket | null>(null);

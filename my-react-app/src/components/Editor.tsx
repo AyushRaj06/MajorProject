@@ -5,6 +5,7 @@ import styled from "@emotion/styled";
 import { File, buildFileTree, RemoteFile } from "./external/editor/utils/file-manager";
 import { FileTree } from "./external/editor/components/file-tree";
 import { Socket } from "socket.io-client";
+import React from "react";
 
 export const Editor = ({
     files,
