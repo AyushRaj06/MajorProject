@@ -1,7 +1,8 @@
-import './App.css'
-import { CodingPage } from './components/CodingPage'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+import { CodingPage } from './components/CodingPage';
 import { Landing } from './components/Landing';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route path="/" element={<Landing />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
