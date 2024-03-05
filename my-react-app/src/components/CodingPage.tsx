@@ -114,6 +114,10 @@ export const CodingPagePostPodCreation = () => {
         return "Loading...";
     }
 
+    if (!socket) {
+        return "Socket connection not established";
+    }
+
     return (
         <Container>
              <ButtonContainer>
