@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Socket, io } from 'socket.io-client';
 import { Editor } from './Editor';
-import { File, RemoteFile, Type } from './external/editor/utils/file-manager';
+import { File, RemoteFile, Type } from '../external/editor/utils/file-manager';
 import { useSearchParams } from 'react-router-dom';
 import styled from '@emotion/styled';
 import { Output } from './Output';
