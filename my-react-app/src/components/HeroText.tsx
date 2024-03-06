@@ -2,7 +2,7 @@ import { m, LazyMotion, domAnimation } from "framer-motion";
 import React from "react";
 
 const HeroText = () => {
-  const name = "Valeriu";
+  const name = "Replit";
 
   return (
     <div
@@ -22,7 +22,7 @@ const HeroText = () => {
             whileInView={{ x: 0 }}
             transition={{ duration: 0.6, type: "spring" }}
           >
-            Hi, I'm{" "}
+            Welcome to{" "}
           </m.span>
           <m.div
             initial={{ x: 100 }}
@@ -52,9 +52,9 @@ const HeroText = () => {
           className="cursor-pointer text-4xl sm:text-5xl underline underline-offset-4 decoration-primary-400"
           id="repulse-span"
           style={{ fontFamily: "Morganite Extra Bold, sans-serif" }}
-        >
+        ><br></br>
         <a href="#about">
-          <span className="text-primary-400">Front-end</span> Developer
+          <span className="text-primary-400">Idea to software, </span> fast
         </a>
         </m.span>
       </LazyMotion>
