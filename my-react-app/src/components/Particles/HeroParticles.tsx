@@ -1,3 +1,4 @@
+import React from "react";
 import ParticlesComponent from "./ParticlesComponent";
 import { heroOptions } from "./particlesOptions";
 
