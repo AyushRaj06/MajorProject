@@ -13,6 +13,15 @@ const NavLinks = ({ handleClick }) => {
             About
           </a>
         </li>
+        <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
+          <a
+            className="active:text-grayscale-100"
+            onClick={handleClick}
+            href="#ide"
+          >
+            IDE
+          </a>
+        </li>
         <li className="border-t-[1px] border-b-[1px] border-grayscale-950 w-full flex justify-center p-3">
           <a
             className="active:text-grayscale-100"
