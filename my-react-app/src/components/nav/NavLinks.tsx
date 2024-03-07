@@ -17,7 +17,7 @@ const NavLinks = ({ handleClick }) => {
           <a
             className="active:text-grayscale-100"
             onClick={handleClick}
-            href="#ide"
+            href="#projects"
           >
             IDE
           </a>
