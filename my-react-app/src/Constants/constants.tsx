@@ -69,6 +69,14 @@ const icons = {
   faTiktok,
 };
 
+const introduction = {
+  text: [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et finibus felis. Aliquam erat volutpat. Aliquam at ornare augue. Mauris dolor risus, luctus nec nisi quis, fringilla ultrices lorem. Nam mattis eu libero a commodo. Maecenas faucibus ante at vulputate rhoncus. Vestibulum tincidunt quis mauris nec sollicitudin. Vivamus varius luctus tincidunt. Ut in lacus vulputate, bibendum ante sed, imperdiet metus. Cras consequat tellus a dolor malesuada congue. Sed eu porttitor tortor. Duis consectetur nibh a neque hendrerit venenatis. Mauris porttitor elementum augue vitae elementum. Praesent quam leo, dignissim sed tincidunt bibendum, eleifend eu magna.",
+
+    "Sed efficitur vestibulum diam eu volutpat. Morbi malesuada lorem et nunc ornare, at ullamcorper enim pretium. Mauris at vehicula nibh. Curabitur eget nisi volutpat, ornare ante et, gravida quam. Curabitur ut lectus ultrices, tristique dolor in, sodales purus. Nam venenatis rhoncus erat, quis euismod nisi. Pellentesque ullamcorper orci nec tellus volutpat, sed maximus ipsum blandit. Phasellus velit est, gravida sed eleifend eu, pellentesque a lacus. Aenean lorem leo, iaculis vitae justo quis, scelerisque condimentum lacus. Aenean a velit quis turpis condimentum commodo. Proin sed massa orci. Vestibulum nec semper quam, et commodo ex. Suspendisse blandit dolor id justo finibus dignissim. Orci varius natoque penatibus et magnis."
+  ],
+};
+
 const memoji = {
   image: [memojiHello, memojiHand, memojiOk],
 };
@@ -88,6 +96,7 @@ const globeData = [...Array(N).keys()].map(() => ({
 
 export {
   media,
+  introduction,
   memoji,
   markerSvg,
   globeData,

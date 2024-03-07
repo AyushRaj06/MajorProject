@@ -3,7 +3,7 @@ import { CodingPage } from '../components/ide/CodingPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Landing } from '../components/ide/Landing'
 
-function IDE () {
+const IDE = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -11,7 +11,7 @@ function IDE () {
                 <Route path="/" element={<Landing />} />
             </Routes>
         </BrowserRouter>
-    )
+    );
 }
 
-export default IDE
+export default IDE;
